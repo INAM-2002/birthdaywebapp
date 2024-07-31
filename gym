@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Fitness</title>
+    <link rel="stylesheet" href="sigma.css">  
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            color:white;
+            margin: 0;
+            padding: 0;
+            background: url(inamul.jpeg);
+            width:1500px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        h3 {
+            /*border:2px solid darkred;*/
+            display:block; 
+           margin:2px auto;
+            width:33%;
+            text-align: center;
+            color:blueviolet;
+            background-color: aqua;
+            }
+        .left{
+            width:150;
+            /*border:2px solid red;*/
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 34px;
+            }
+        
+        .mid{
+            /*border:2px solid green;*/
+            display:block; 
+           margin:20px auto;
+            width:33%;
+            height:35px;
+            
+
+        }
+        .right{
+            /*border:2px solid;*/
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 34px;
+        }
+        .home{
+            display:inline-block;
+        }
+        .home li{
+            
+            display:inline-block;
+        }
+        .home li a{
+            color:pink;
+            text-decoration: none;
+            padding:34px 23px;
+            font-size: 20px;
+        }
+        .home li a:hover, .home li a.active{
+            color:grey;
+            text-decoration: underline;
+        }
+        .src{
+            width:150px;
+            height:150px;
+        }
+        .class{
+            color:red;
+            background-color: white;
+            text-decoration: underline;
+            font-size: x-large;
+        }
+        .btn{
+            margin:0px 9px;
+            padding:4px 14px;
+            border:2px solid green;
+            color:white;
+            background-color:red;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            text-decoration: underline;
+            color:pink;
+            
+        }
+        .contain{
+        color:red;
+            border: 2px solid green;
+margin:  200px 800px ;
+width: 700px;
+height: 500px;
+padding: 20px 10px;
+border-radius: 5px;
+border-color: black;
+padding: 50px 10px 20px;
+}
+
+      .form-group input{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        width: 500px;
+        border:2px solid black;
+        margin: 3px auto;
+        font-size: 25px;
+         border-radius:20px ;
+         color:black;
+         display: block;
+
+
+      }     
+      .contain h1{
+        text-align: center;
+        
+      }
+      .contain button{
+        display: block;
+        width:70%;
+        margin :auto;
+
+      }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+    <div class="left">
+        <div class="class">
+            <strong>sigma-fitness</strong>
+        </div>
+        <img src="logo.jpeg" alt="" class="src" >
+         <!--left box for nav bar-->
+    </div>
+    <div class="mid">
+        <nav class="home">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">Timing</a></li>
+                <li><a href="#">Fee Structure</a></li>
+            </ul>
+        </nav>
+        <!--mid box for nav bar-->
+    </div>
+    <div class="right">
+       <button class="btn">Contact us</button><button class="btn">Help</button>
+         <!--right box for nav bar-->
+
+    </div>
+    
+</header>
+    <!--<img src="https://img.freepik.com/premium-vector/fitness-logo_25327-145.jpg?w=2000" alt="" class="src">-->
+    <class class="container"></class>
+    <div class="contain">
+        <h1>
+            join the best gym of kolkata
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name=""placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                 <input type="text" name=""placeholder="enter your age" >
+               </div>
+               <div class="form-group">
+               <input type="text" name=""placeholder="enter your gender" >
+               </div>
+               <div class="form-group">
+               <input type="text" name=""placeholder="enter your address" >
+                </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
